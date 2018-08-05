@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: black;
+  overflow: hidden;
+  color: black;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+* {
+  transition: font-size 1s ease-out;
+}
+
+a:link, a:visited , a:hover, active  {
+  color: black;
+}
+
+.flex {
+  display: flex;
+}
+
+video, .container  {
+  margin: auto 0;
+}
+
+.container {
+  position: absolute;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  color: black
+}
+
+.container_btns {
+  justify-content: center;
+  margin-top: 20%;
+}
+
+.container_btns i {
+  margin: 80px 20px;
+  opacity: .5;
+  cursor: pointer;
+}
+
+.container_btns i:hover {
+  opacity: 1;
+  font-size: 5rem;
+}
