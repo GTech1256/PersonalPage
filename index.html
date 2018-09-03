@@ -1,25 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="style.css">
   <script type="text/javascript" src="script.js"></script>
   <title>GTech</title>
 </head>
-<body class="flex" oncontextmenu="javascript:document.location.href='https://vk.com/greentech1256';return false;">
-  <video autoplay loop="true" autoplay="true" playsinline src="video/InMyMindInMyHead.mp4">
+
+<body class="flex" oncontextmenu="noRightMouse()">
+  <video id="main-video" autoplay loop="true" autoplay="true" playsinline src="video/InMyMindInMyHead.mp4">
   </video>
   <iframe id="del" autoplay loop="true" autoplay="true" playsinline src="video/InMyMindInMyHead.mp4">
   </iframe>
-  <div class="container">
+  <div class="container flex">
     <div class="container_btns flex">
-        <a href="https://vk.com/greentech1256"><i class="fab fa-vk"></i></a>
-        <a href="https://steamcommunity.com/greentech1256"><i class="fab fa-steam-symbol"></i></a>
-        <a href="https://github.com/GTech1256"><i class="fab fa-github"></i></a>
-      </div>
+      <a href="https://vk.com/greentech1256" onmouseover="reziseByMouseOver(event)" onmouseout="setIconPosition()">
+        <i class="fab fa-vk"></i>
+      </a>
+      <a href="https://steamcommunity.com/greentech1256" onmouseover="reziseByMouseOver(event)" onmouseout="setIconPosition()">
+        <i class="fab fa-steam-symbol"></i>
+      </a>
+      <a href="https://github.com/GTech1256" onmouseover="reziseByMouseOver(event)" onmouseout="setIconPosition()">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
   </div>
+
 </body>
+
 </html>

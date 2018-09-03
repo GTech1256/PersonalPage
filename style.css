@@ -14,7 +14,10 @@ body {
   transition: font-size 1s ease-out;
 }
 
-a:link, a:visited , a:hover, active  {
+a:link,
+a:visited,
+a:hover,
+active {
   color: black;
 }
 
@@ -22,30 +25,35 @@ a:link, a:visited , a:hover, active  {
   display: flex;
 }
 
-video, .container  {
+video,
+.center {
   margin: auto 0;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  z-index: 10;
 }
 
 .container {
-  position: absolute;
+  z-index: 50;
   width: 100%;
-  margin: auto;
-  justify-content: center;
-  color: black
+  height: auto;
 }
 
 .container_btns {
+  margin: auto;
   justify-content: center;
-  margin-top: 20%;
+  font-size: 10vh;
 }
 
 .container_btns i {
-  margin: 80px 20px;
-  opacity: .5;
+  padding-top: 5rem;
+  margin: 0 20px;
+  opacity: 0.5;
   cursor: pointer;
 }
 
 .container_btns i:hover {
   opacity: 1;
-  font-size: 5rem;
+  font-size: 15vh;
 }
